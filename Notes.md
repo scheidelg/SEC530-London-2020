@@ -16,13 +16,13 @@
     - an FQDN of `ca2020ae.scheidel.net`
     - a GitHub project name of `SEC530-CA-2020-AE`
 
-1. Create a OneNote notebook with the assigned name.
+2. Create a OneNote notebook with the assigned name.
 
     - Open OneDrive
     - Browse to the folder containing class OneNote projects
     - Copy the emplate to a new project
 
-1. Update sharing and editing access, and get the page's sharable URL.
+3. Update sharing and editing access, and get the page's sharable URL.
 
    Note: For the time being we're trying to avoid using a shared editing password. We might have to staring using passwords if there are ever problems with people maliciously mucking with the notebook.
 
@@ -33,7 +33,7 @@
     - Click on **Copy link** to get a shareable link; copy to clipboard; save in a scratchpad so you don't lose it
     - Close the dialog
 
- 1. Create a new GitHub project with GitHub Pages enabled.
+ 4. Create a new GitHub project with GitHub Pages enabled.
 
      - Open GitHub
      - Create a new GitHub project with the assigned GitHub project name
@@ -42,7 +42,7 @@
      - Change the GitHub Pages **Source** setting to the main branch; click **Save**
      - Change the GitHub Pages **Custom domain** setting to the assigned FQDN; click **Save**
 
- 1. Set up the initial GitHub content with a copy of this `Readme.md` file and an `index.html` file.
+ 5. Set up the initial GitHub content with a copy of this `Readme.md` file and an `index.html` file.
 
     The `index.html` file contents should be similar to:
 
@@ -61,7 +61,7 @@
 
     Note that there will already be a CNAME file. This was automatically created when the custom domain was enabled for GitHub Pages.
 
- 1. Login to GoDaddy and create a CNAME record that redirects to the GitHub project's GitHub Pages web page.
+ 6. Login to GoDaddy and create a CNAME record that redirects to the GitHub project's GitHub Pages web page.
  
      - **Manage My Products**
      - Under the list of domains, find `scheidel.net`
@@ -70,7 +70,7 @@
 
 | Type | Host | Points to | TTL |
 | :--- | :--- | :--- | :--- |
-| CNAME | (base name within `scheidel.net`) | scheidelg.github.io | 1 week |
+| CNAME | (base name within `scheidel.net`) | scheidelg.github.io | 300 seconds |
 
 Note: This assumes that we already have the A records created for the apex domain (i.e., `scheidel.net`) to resolve to the GitHub Pages IP addresses:
 
@@ -80,6 +80,10 @@ Note: This assumes that we already have the A records created for the apex domai
 | A | @ | 185.199.109.153 | 1 week |
 | A | @ | 185.199.110.153 | 1 week |
 | A | @ | 185.199.111.153 | 1 week |
+
+ 7. Test browsing to the <DN>.scheidel.net to make sure it redirects to the correct OneNote notebook.
+
+ 8. After successfully testing, change the TTL on GoDaddy to 1 week.
 
 **Setup Initial OneNote Notebook Pages**
 
