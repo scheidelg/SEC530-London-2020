@@ -72,7 +72,7 @@
 | :--- | :--- | :--- | :--- |
 | CNAME | (base name within `scheidel.net`) | scheidelg.github.io | 1 week |
 
-Note: This assumes that we already have the A records created for the apex domain (i.e., `scheidel.net`) to resolve to the GitHub Pages IP addresses.
+Note: This assumes that we already have the A records created for the apex domain (i.e., `scheidel.net`) to resolve to the GitHub Pages IP addresses:
 
 | Type | Name | Value | TTL |
 | :--- | :--- | :--- | :--- |
