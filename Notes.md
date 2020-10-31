@@ -81,7 +81,7 @@ Note: This assumes that we already have the A records created for the apex domai
 | A | @ | 185.199.110.153 | 1 week |
 | A | @ | 185.199.111.153 | 1 week |
 
- 7. Test browsing to the <DN>.scheidel.net to make sure it redirects to the correct OneNote notebook.
+ 7. Test browsing to the \<DN\>.scheidel.net to make sure it redirects to the correct OneNote notebook.
 
  8. After successfully testing, change the TTL on GoDaddy to 1 week.
 
