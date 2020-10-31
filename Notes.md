@@ -85,6 +85,8 @@ Note: This assumes that we already have the A records created for the apex domai
 
  8. After successfully testing, change the TTL on GoDaddy to 1 week.
 
+ 9. Go back to the GitHub repository settings and enable 'Enforce HTTPS'.
+
 **Setup Initial OneNote Notebook Pages**
 
 Refer to the notes in the OneNote template notebook for customizing and updating for this class.
