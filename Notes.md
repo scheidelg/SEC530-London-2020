@@ -3,7 +3,7 @@
 1. Assign:
 
     - a name for the class OneNote notebook that is fairly simple and easy to remember
-    - a corresponding FQDN as a subdomaon of scheidel.net
+    - a corresponding FQDN as a subdomain of scheidel.net
     - a corresponding GitHub project name
 
    We're looking for a OneNote notebook name that's easy for students to remember and closely associated with the event, with a matching FQDN that is easy to remember, short, and easy to type.
