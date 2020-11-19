@@ -29,7 +29,9 @@
     - Access the notebook via OneNote on the web
     - In the top-right corner, click on **Share**
     - Click on **Anyone with the link can edit**
-    - Set an expiration date (a few weeks after the class) and click **Apply**
+    - **Optionally** Set an expiration date (a few weeks after the class) and click **Apply**
+    
+      **If you set an expiration date, then ahead of that date you'll need to also create a 'view' link and update this project's `index.html` file to redirect to that new link.** Otherwise somebody browsing to the x.scheidel.net URL will be denied access.
     - Click on **Copy link** to get a shareable link; copy to clipboard; save in a scratchpad so you don't lose it
     - Close the dialog
 
